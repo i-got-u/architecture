@@ -31,7 +31,6 @@ Currently the only transaction supported is requesting for and issuing IOUs. In 
 
 ToDo: We need to come up with steps to transact in a group that is easier. 
 
-
 ###Circular Settlement
 
 The idea is that as the ledger system grows if we could look at the global state we will see that there are circular loops in the system.
@@ -40,3 +39,8 @@ It would be an ideal if circular flows could be detected and removed.
 ####Steps Involved
 1. Detect circular flows. 
 2. Use cryptocurrency to keep settling debts and finally the crptocurrency ends up with the person who started the flow itself.
+
+### Original Authors
+* Cherry G Mathew -  cherry@byisystems.com
+* Santosh Raju - santosh.raju@gmail.com 
+* Abhimanyu M A - abhi@manyu.in
